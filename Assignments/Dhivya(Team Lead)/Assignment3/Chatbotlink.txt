@@ -1,0 +1,1 @@
+https://au-syd.assistant.watson.cloud.ibm.com/crn%3Av1%3Abluemix%3Apublic%3Aconversation%3Aau-syd%3Aa%2F3b3c80e342fc4af7a697cb3a394f8b5e%3A46f9121e-239d-42fd-b562-76cc52099c6d%3A%3A/assistants/696efae1-4853-457b-bbec-7a8a78367d21/preview
