@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Images</title>
+	<link rel="stylesheet" type="text/css" href="https://amsaveni.s3-web.us-east.cloud-object-storage.appdomain.cloud/style.css">
+</head>
+<body>
+	<img src="https://amsaveni.s3-web.us-east.cloud-object-storage.appdomain.cloud/image1.jpg" alt="image1"><img src="https://amsaveni.s3-web.us-east.cloud-object-storage.appdomain.cloud/image2.jpg" alt="image2"><img src="https://amsaveni.s3-web.us-east.cloud-object-storage.appdomain.cloud/image3.jpg" alt="image3"><img src="https://amsaveni.s3-web.us-east.cloud-object-storage.appdomain.cloud/image4.jpg" alt="image4"><img src="https://amsaveni.s3-web.us-east.cloud-object-storage.appdomain.cloud/image5.jpg" alt="image5">
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "9da125e7-ba83-423a-8787-1a00339c7e66", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "0fc1b362-9411-4d0c-834d-ff0b60564ea0", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body>
+</html>
